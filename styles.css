@@ -30,6 +30,32 @@
     width: 350px;
     cursor: pointer;
 }
+.button:hover{
+    background-color: darkkhaki;
+    color: deeppink;
+}
+.button:active{
+    text-transform: uppercase;
+}
 .button:focus{
     box-shadow: 0 0 10px rgba(241, 59, 59, 0.8)
+}
+.list li:first-child{
+    color: green;
+}
+.list li:last-child{
+    color: fuchsia;
+}
+.list li:nth-child(3){
+    text-decoration: underline;
+}
+
+.benefits li:nth-child(odd){
+    background-color: yellow;
+}
+.benefits li:nth-child(odd):hover{
+    background-color: teal;
+}
+.benefits li:nth-child(even){
+    background-color: blue;
 }
