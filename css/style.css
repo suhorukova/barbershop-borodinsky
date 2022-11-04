@@ -1,7 +1,9 @@
 @font-face {
     font-family: 'ptsansnarrow';
-    src: url('ptsansnarrow.woff2') format('woff2'),
-         url('ptsansnarrow.woff') format('woff');
+    src: url('../ptsansnarrow.woff2') format('woff2'),
+         url('../ptsansnarrow.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+body {font-family: 'ptsansnarrow', sans-serif;
 }
