@@ -15,22 +15,22 @@
             <img src="img/index-logo.svg" width="368" height="155" alt="Логотип барбершопа Бородинский">
             </a>
             <ul>
-                <li><a href="info.html" class="link">Информация</a></li>
-                <li><a href="news.html" class="link">Новости</a></li>
-                <li><a href="price.html" class="link">Прайс-лист</a></li>
-                <li><a href="catalog.html" class="link">Магазин</a></li>
-                <li><a href="contacts.html" class="link">Контакты</a></li>
+                <li><a href="info.html">Информация</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="price.html">Прайс-лист</a></li>
+                <li><a href="catalog.html">Магазин</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
             </ul>
             <ul>
                 <li>
-                    <button class="textbutton" type="button">Войти</button>
+                    <a href="login.html">Вход</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Барбершоп «Бородинский»</h1>
-        <section class="benefits">
+        <section>
             <h2>Преимущества</h2>
             <ul>
                 <li>
@@ -58,15 +58,15 @@
                     <time datetime="2021-02-03">2 февраля</time>
                 </li>
             </ul>
-            <a href="news.html" class="link">Новости</a>
+            <a href="news.html">Новости</a>
         </section>
         <section>
             <h2>Фотогалерея</h2>
             <figure>
                 <a href="#"><img src="img/interior.jpg" width="268" height="164" alt="Салон барбершопа «Бородинский»"></a>
             </figure>
-            <button class="textbutton" type="button">Назад</button>
-            <button class="textbutton" type="button">Вперед</button>
+            <button type="button">Назад</button>
+            <button type="button">Вперед</button>
         </section>
         <section>
             <h2>Контактная информация</h2>
@@ -79,21 +79,33 @@
                 пн-пт: с 10:00 до 22:00<br>
                 сб-вс: с 10:00 до 19:00
             </p>
-            <a href="map.html" class="link">Как проехать</a>
-            <a href="contacts.html" class="link">Обратная связь</a>
+            <a href="map.html">Как проехать</a>
+            <a href="contacts.html">Обратная связь</a>
         </section>
         <section>
             <h2>Записаться</h2>
-            <input type="text" class="textinput">
-            <button class="button" type="submit">Отправить</button>
             <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+            <p>
+                <label for="appointmer-date">Дата</label>
+                <input id="appointmer-date" type="date" name="date" value="день/месяц/год">
+            </p>
+            <p>
+                <label for="appointmer-time">Время</label>
+                <input type="time" name="time" value="00:00">
+            </p>
+            <p>
+                <label for="appointmer-text">Ваше имя</label>
+                <input type="text" name="text" value="" placeholder="Ваше имя">
+            </p>
+            <p>Телефон<input type="tel" name="tel" value="" placeholder="+7 999 999 99 99"></p>
+            <button type="submit">Отправить</button>
         </section>
     </main>
     <footer>
         <p>
             Барбершоп «бородинский»<br>
             Адрес: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
-            <a href="map.html" class="link">Как нас найти?</a><br>
+            <a href="map.html">Как нас найти?</a><br>
             Телефон: +7 (495) 666-02-66
         </p>
         <div>
@@ -105,17 +117,17 @@
             </ul>
         </div>
         <p>Разработано:
-            <a href="https://htmlacademy.ru" class="link" target="_blank">HTML Academy</a>
+            <a href="https://htmlacademy.ru" target="_blank">HTML Academy</a>
         </p>
     </footer>
     <secrion>
         <h2>Личный кабинет</h2>
         <p>Введите свой логин и пароль.</p>
-        <button class="textbutton" type="button">Закрыть</button>
+        <button type="button">Закрыть</button>
     </secrion>
     <section>
         <h2>Как до нас добраться</h2>
-        <button class="textbutton" type="button">Закрыть</button>
+        <button type="button">Закрыть</button>
     </section>
 </body>
 </html>
